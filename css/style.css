@@ -117,7 +117,7 @@ a{
     }
 
     .discount{
-        
+        position: relative;
     }
 
     .discount-value, .ecofriendly{
@@ -126,7 +126,7 @@ a{
         font-size: .5rem;
         margin-right: .25rem;
         font-weight: bold;
-        position: relative;
+        position: absolute;
         bottom: 3rem;
     }
 
@@ -136,6 +136,18 @@ a{
 
     .ecofriendly{
         background-color: var(--boo-main-extra);
+        position: absolute;
+        left: 2rem;
+    }
+
+    h3{
+        font-weight: normal;
+        color: var(--boo-brand);
+        font-size: .75rem;
+    }
+
+    h2{
+        font-size: 1rem;
     }
 }
 
