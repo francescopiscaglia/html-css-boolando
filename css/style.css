@@ -172,7 +172,7 @@ a{
     top: 1rem;
     right: 0;
     background-color: var(--boo-ligher);
-    padding: 1rem;
+    padding: .5rem;
 }
 
 .element:hover .like{
