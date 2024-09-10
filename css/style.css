@@ -118,6 +118,7 @@ a {
 
 /* #region main */
 #app-main {
+    padding-top: 3rem;
 
     .element {
         width: 33%;
