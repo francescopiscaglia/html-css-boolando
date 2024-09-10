@@ -103,6 +103,10 @@ a{
         vertical-align: middle;
     }
 
+    i{
+        font-size: .75rem;
+    }
+
 }
 /* #endregion header */
 
