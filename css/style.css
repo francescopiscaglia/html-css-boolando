@@ -114,6 +114,7 @@ a{
     
     .element{
         width: 33%;
+        position: relative;
     }
 
     .discount{
@@ -163,9 +164,20 @@ a{
     .old-price{
         text-decoration: line-through;
     }
-
 }
 
+.like{
+    display: none;
+    position: absolute;
+    top: 1rem;
+    right: 0;
+    background-color: var(--boo-ligher);
+    padding: 1rem;
+}
+
+.element:hover .like{
+    display: block;
+}
 /* #endregion main */
 
 
