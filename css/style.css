@@ -206,6 +206,15 @@ a {
     a{
         color: var(--boo-footer-text);
     }
+
+    .find-us h3{
+        font-size: .80rem;
+    }
+
+    .social-icon{
+        text-align: center;
+        margin-top: 1rem;
+    }
 }
 
 /* #endregion footer */
