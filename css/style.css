@@ -1,22 +1,25 @@
 /* #region common */
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-img{
+img {
     max-width: 100%;
 }
 
-a{
+a {
     text-decoration: none;
+    padding: 0rem .5rem 0rem 0rem;
+    font-size: .75rem;
 }
+
 /* #endregion common */
 
 /* #region color palette */
-:root{
+:root {
     --boo-ligher: #ffffff;
     --boo-darker: #000000;
     --boo-header-bg: #ff6900;
@@ -26,102 +29,105 @@ a{
     --boo-main-extra: #008000;
     --boo-brand: #6a7075;
 }
+
 /* #endregion color palette */
 
 /* #region utilities */
-.debug{
-    #app-header{
+.debug {
+    #app-header {
         background-color: red;
         height: 100px;
     }
 
-    #app-main{
+    #app-main {
         background-color: blue;
         height: 400px;
     }
 
-    #app-footer{
+    #app-footer {
         background-color: black;
         height: 100px;
     }
 
-    .container{
+    .container {
         background-color: lightgray;
         height: 100%;
     }
 
-    .element{
+    .element {
         background-color: aqua;
-        
+
     }
 }
 
-.container{
+.container {
     width: 80%;
     margin: auto;
 }
 
 /* #region flexbox */
-.d-flex{
+.d-flex {
     display: flex;
     flex-wrap: wrap;
 }
 
-.justify-space-between{
+.justify-space-between {
     justify-content: space-between;
 }
 
-.align-items-center{
+.align-items-center {
     align-items: center;
 }
+
 /* #endregion flexbox */
 
 /* #endregion utilities */
 
 /* #region header */
-#app-header{
+#app-header {
     background-color: var(--boo-header-bg);
     color: var(--boo-ligher);
 
-    .p-1rem-up-down{
+    .p-1rem-up-down {
         padding: 1rem 0rem;
     }
 
-    ul{
+    ul {
         list-style-type: none;
     }
 
     a{
         color: var(--boo-ligher);
-        padding: 0rem .5rem 0rem 0rem;
-        font-size: .75rem;
         font-weight: bold;
     }
-    
-    img{
-        width: 6rem;    
+
+    img {
+        width: 6rem;
         vertical-align: middle;
     }
 
-    i{
+    i {
         font-size: .75rem;
     }
 }
+
 /* #endregion header */
 
 /* #region main */
-#app-main{
-    
-    .element{
+#app-main {
+
+    .element {
         width: 33%;
         position: relative;
+        margin-top: 1.5rem;
     }
 
-    .discount{
+    .discount {
         position: relative;
     }
 
-    .discount-value, .ecofriendly{
+    .discount-value,
+    .ecofriendly {
         color: var(--boo-ligher);
         padding: .25rem;
         font-size: .5rem;
@@ -131,42 +137,43 @@ a{
         bottom: 3rem;
     }
 
-    .discount-value{
+    .discount-value {
         background-color: var(--boo-main-discount);
     }
 
-    .ecofriendly{
+    .ecofriendly {
         background-color: var(--boo-main-extra);
         position: absolute;
         left: 2rem;
     }
 
-    h3{
+    h3 {
         font-weight: normal;
         color: var(--boo-brand);
         font-size: .75rem;
     }
 
-    h2{
+    h2 {
         font-size: 1rem;
     }
 
-    .red-price, .old-price{
+    .red-price,
+    .old-price {
         font-size: .85rem;
     }
 
-    .red-price{
+    .red-price {
         color: var(--boo-main-discount);
         font-weight: bold;
         margin-right: .25rem;
     }
 
-    .old-price{
+    .old-price {
         text-decoration: line-through;
     }
 }
 
-.like{
+.like {
     display: none;
     position: absolute;
     top: 1rem;
@@ -175,9 +182,30 @@ a{
     padding: .5rem;
 }
 
-.element:hover .like{
+.element:hover .like {
     display: block;
 }
+
 /* #endregion main */
 
+/* #region footer */
+#app-footer {
+    background-color: var(--boo-footer-bg);
+    color: var(--boo-footer-text);
+    margin-top: 2rem;
+    padding-top: 2rem;
 
+    ul {
+        list-style-type: none;
+    }
+
+    li{
+        padding: 1rem 1rem 1rem 0rem;
+    }
+
+    a{
+        color: var(--boo-footer-text);
+    }
+}
+
+/* #endregion footer */
