@@ -176,17 +176,28 @@ a {
     }
 }
 
-.like {
+.element-hover{
     display: none;
+}
+
+.element:hover .element-hover{
+    display: block;
+}
+
+.element:hover .element-img{
+    display: none;
+}
+
+.like {
     position: absolute;
     top: 1rem;
     right: 0;
     background-color: var(--boo-ligher);
-    padding: .5rem;
+    padding: .75rem;
 }
 
-.element:hover .like {
-    display: block;
+.element:hover .fa-heart {
+    color: var(--boo-main-discount);
 }
 
 /* #endregion main */
