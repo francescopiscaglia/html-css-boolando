@@ -87,6 +87,9 @@ a {
 #app-header {
     background-color: var(--boo-header-bg);
     color: var(--boo-ligher);
+    position: fixed;
+    width: 100%;
+    z-index: 10000;
 
     .p-1rem-up-down {
         padding: 1rem 0rem;
@@ -195,6 +198,10 @@ a {
     margin-top: 2rem;
     padding-top: 2rem;
 
+    h3{
+        font-size: .85rem;
+    }
+
     ul {
         list-style-type: none;
     }
@@ -205,10 +212,6 @@ a {
 
     a{
         color: var(--boo-footer-text);
-    }
-
-    .find-us h3{
-        font-size: .80rem;
     }
 
     .social-icon{
