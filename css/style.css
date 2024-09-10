@@ -1,0 +1,25 @@
+/* #region common */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: lightgray;
+}
+
+img{
+    max-width: 100%;
+}
+/* #endregion common */
+
+/* #region color palette */
+:root{
+    --boo-ligher: #ffffff;
+    --boo-darker: #000000;
+    --boo-header-bg: #ff6900;
+    --boo-footer-bg: #1a1a1a;
+    --boo-footer-text: #f3ebd6;
+    --boo-main-discount: #ff0000;
+    --boo-main-extra: #008000;
+    --boo-brand: #6a7075;
+}
+/* #endregion color palette */
