@@ -3,7 +3,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: lightgray;
 }
 
 img{
@@ -23,3 +22,56 @@ img{
     --boo-brand: #6a7075;
 }
 /* #endregion color palette */
+
+/* #region utilities */
+.debug{
+    #app-header{
+        background-color: red;
+        height: 100px;
+    }
+
+    #app-main{
+        background-color: blue;
+        height: 400px;
+    }
+
+    #app-footer{
+        background-color: black;
+        height: 100px;
+    }
+
+    .container{
+        background-color: yellow;
+    }
+}
+
+/* #region flexbox */
+.d-flex{
+    display: flex;
+}
+
+.justify-space-between{
+    justify-content: space-between;
+}
+
+.align-items-center{
+    align-items: center;
+}
+/* #endregion flexbox */
+
+/* #endregion utilities */
+
+/* #region header */
+#app-header{
+    .container{
+        width: 80%;
+        margin: auto;
+
+        ul{
+            list-style-type: none;
+        }
+    }
+}
+/* #endregion header */
+
+
