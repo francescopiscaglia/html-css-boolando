@@ -149,6 +149,21 @@ a{
     h2{
         font-size: 1rem;
     }
+
+    .red-price, .old-price{
+        font-size: .85rem;
+    }
+
+    .red-price{
+        color: var(--boo-main-discount);
+        font-weight: bold;
+        margin-right: .25rem;
+    }
+
+    .old-price{
+        text-decoration: line-through;
+    }
+
 }
 
 /* #endregion main */
