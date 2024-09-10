@@ -52,7 +52,7 @@ a{
 
     .element{
         background-color: aqua;
-        width: 33%;
+        
     }
 }
 
@@ -106,8 +106,39 @@ a{
     i{
         font-size: .75rem;
     }
-
 }
 /* #endregion header */
+
+/* #region main */
+#app-main{
+    
+    .element{
+        width: 33%;
+    }
+
+    .discount{
+        
+    }
+
+    .discount-value, .ecofriendly{
+        color: var(--boo-ligher);
+        padding: .25rem;
+        font-size: .5rem;
+        margin-right: .25rem;
+        font-weight: bold;
+        position: relative;
+        bottom: 3rem;
+    }
+
+    .discount-value{
+        background-color: var(--boo-main-discount);
+    }
+
+    .ecofriendly{
+        background-color: var(--boo-main-extra);
+    }
+}
+
+/* #endregion main */
 
 
