@@ -41,13 +41,25 @@ img{
     }
 
     .container{
-        background-color: yellow;
+        background-color: lightgray;
+        height: 100%;
     }
+
+    .element{
+        background-color: aqua;
+        width: 33%;
+    }
+}
+
+.container{
+    width: 80%;
+    margin: auto;
 }
 
 /* #region flexbox */
 .d-flex{
     display: flex;
+    flex-wrap: wrap;
 }
 
 .justify-space-between{
@@ -57,20 +69,19 @@ img{
 .align-items-center{
     align-items: center;
 }
+
+
 /* #endregion flexbox */
 
 /* #endregion utilities */
 
 /* #region header */
 #app-header{
-    .container{
-        width: 80%;
-        margin: auto;
 
-        ul{
-            list-style-type: none;
-        }
+    ul{
+        list-style-type: none;
     }
+
 }
 /* #endregion header */
 
