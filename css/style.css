@@ -90,6 +90,7 @@ a {
     position: fixed;
     width: 100%;
     z-index: 10000;
+    box-shadow: 0px 5px 10px #b6b6b6;
 
     .p-1rem-up-down {
         padding: 1rem 0rem;
@@ -99,7 +100,7 @@ a {
         list-style-type: none;
     }
 
-    a{
+    a {
         color: var(--boo-ligher);
         font-weight: bold;
     }
