@@ -6,10 +6,6 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-body{
-    min-width: 1440px;
-}
-
 img {
     max-width: 100%;
 }
@@ -92,7 +88,7 @@ a {
     background-color: var(--boo-header-bg);
     color: var(--boo-ligher);
     position: fixed;
-    min-width: 1440px;
+    width: 100%;
     z-index: 10000;
     box-shadow: 0px 5px 10px #b6b6b6;
 
@@ -129,6 +125,7 @@ a {
         width: 33%;
         position: relative;
         margin-top: 1.5rem;
+        box-shadow: 0 0 10px #ededed;
     }
 
     .discount {
