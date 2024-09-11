@@ -6,6 +6,10 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+body{
+    min-width: 1440px;
+}
+
 img {
     max-width: 100%;
 }
@@ -88,7 +92,7 @@ a {
     background-color: var(--boo-header-bg);
     color: var(--boo-ligher);
     position: fixed;
-    width: 100%;
+    min-width: 1440px;
     z-index: 10000;
     box-shadow: 0px 5px 10px #b6b6b6;
 
