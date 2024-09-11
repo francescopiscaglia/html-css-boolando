@@ -156,6 +156,7 @@ a {
         font-weight: normal;
         color: var(--boo-brand);
         font-size: .75rem;
+        margin-bottom: .25rem;
     }
 
     h2 {
