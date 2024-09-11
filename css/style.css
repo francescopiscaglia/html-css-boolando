@@ -126,8 +126,12 @@ a {
         position: relative;
         margin-top: 1.5rem;
         box-shadow: 0 0 10px #ededed;
+        padding-bottom: .5rem;
     }
 
+    .element-details{
+        padding-top: .25rem;
+    }
     .discount {
         position: relative;
     }
